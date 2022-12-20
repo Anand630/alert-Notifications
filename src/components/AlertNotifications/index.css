@@ -1,0 +1,109 @@
+.alert-notifications-home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.alert-notifications-heading {
+  font-family: Roboto;
+  color: #0f172a;
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.all-notifications-container {
+  list-style: none;
+  padding-left: 0;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 767px) {
+  .all-notifications-container {
+    width: 80%;
+  }
+}
+@media (max-width: 575px) {
+  .all-notifications-container {
+    width: 90%;
+  }
+}
+
+.heading-description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 25px;
+  flex-grow: 1;
+}
+
+.success-heading {
+  color: #2dca73;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.error-heading {
+  color: #ff0b37;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.warning-heading {
+  color: #ffb800;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.info-heading {
+  color: #0f81e0;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.description {
+  color: #64748b;
+  font-family: Roboto;
+}
+
+.success-icon {
+  color: #2dca73;
+  font-size: 22px;
+
+  margin-top: 2px;
+}
+
+.error-icon {
+  color: #ff0b37;
+  font-size: 22px;
+  margin-top: 2px;
+}
+
+.warning-icon {
+  color: #ffb800;
+  font-size: 22px;
+  margin-top: 2px;
+}
+
+.info-icon {
+  color: #0f81e0;
+  font-size: 22px;
+  margin-top: 2px;
+}
